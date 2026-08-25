@@ -1,0 +1,35 @@
+{
+  "name": "Planet",
+  "version": "0.0.1",
+  "description": "The project is about planets",
+  "main": "index.js",
+  "author": "tyhoob <yarikbusov@mail.ru>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon ./dist/index.js",
+    "watch": "tsc -w",
+    "debug": "nodemon --inspect ./dist/index.js",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mysql2": "^3.20.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/mysql": "^2.15.27",
+    "@types/node": "^25.5.0",
+    "@types/supertest": "^7.2.0",
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
